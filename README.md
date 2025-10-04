@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -59,3 +60,36 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# Social Profile Website (Laravel + Livewire)
+
+This project is a social profile web application built with **Laravel** and **Livewire**.  
+It provides a simple but powerful interactive UI with real-time components, without needing full page reloads.
+
+### Features
+- **User Profile Page**  
+  Each user has a profile page with multiple tabs:
+  - **Posts**: Display the user's published posts.
+  - **Comments**: Show comments received from other users with pagination.
+  - **Likes**: List of posts the user liked.
+  - **Followers**: Users who follow this profile.
+
+- **Follow/Unfollow System**  
+  Authenticated users can follow or unfollow other users.
+
+- **Livewire Components**  
+  All tabs (posts, comments, likes, followers) are powered by Livewire components, making data loading and pagination seamless.
+
+- **Smart Pagination UI**  
+  Pagination remains in place (sticky position) even if the page has fewer items than the limit, ensuring consistent UX.
+
+### Tech Stack
+- [Laravel](https://laravel.com/)
+- [Laravel Livewire](https://laravel-livewire.com/)
+- [Bootstrap 5](https://getbootstrap.com/) for UI
+- MySQL (or other supported DB)
+
+---
+
+🚀 The project is designed as a starting point for building a **mini social network** with dynamic interactions and a clean UI.
+>>>>>>> daa485edb1810693b82c44427a57459d3386d144
