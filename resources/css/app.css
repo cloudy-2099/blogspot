@@ -1,0 +1,10 @@
+.comments-container {
+    min-height: 300px; /* atur sesuai tinggi area komentar yang kamu mau */
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination-wrapper {
+    
+    margin-top: auto; /* selalu dorong pagination ke bawah */
+}
